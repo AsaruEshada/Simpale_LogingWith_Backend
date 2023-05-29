@@ -37,6 +37,7 @@
         android:text="@string/login"
         android:layout_marginTop="25dp"
         android:background="#021891"
+        android:backgroundTint="#0021DC"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         />
