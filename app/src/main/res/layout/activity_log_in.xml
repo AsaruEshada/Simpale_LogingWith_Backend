@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:layout_marginTop="25dp"
+    android:gravity="center"
+    tools:context=".LogInActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_address"
+        android:id="@+id/username"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:autofillHints="" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:id="@+id/password"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:layout_below="@id/username"
+        android:layout_marginTop="20dp"
+        android:autofillHints="" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LogIn"
+        android:text="@string/login"
+        android:layout_marginTop="25dp"
+        android:background="#021891"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:text="@string/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:id="@+id/register"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="#1332E3"/>
+    <TextView
+        android:text="@string/forget_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/forgetPassword"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="#1332E3"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
